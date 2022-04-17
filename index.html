@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexBox css </title>
+</head>
+<style>
+    .container{
+        height: 130px; width:400px ;
+        margin: auto;
+        border-radius: 10px;
+        background-color: chartreuse;
+          display: flex;
+          /* align-items: flex-start; */
+          align-items:center;
+          justify-content:  space-around;
+    }
+    .container  {
+        border: 1px #ccc solid;
+        
+    } 
+    .box1 {
+      height: 50px;
+      width: 50px;
+      background: darkorange;
+      border-radius: 100%;
+     
+    } 
+
+    .box2 {
+        height: 50px;
+      width: 50px;
+      background: rgb(0, 60, 255);
+      border-radius: 100%;
+
+    } 
+
+    .box3 {
+        height: 50px;
+      width: 50px;
+      background: rgb(228, 19, 86);
+      border-radius: 100%;
+  
+    }
+    .box4 {
+        height: 50px;
+      width: 50px;
+      background: rgb(255, 162, 0);
+      border-radius: 100%;
+  
+    }
+
+
+    .container2 {
+    max-width: 1300px;
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    /* border: 1px solid #333; */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    grid-gap: 10px;
+    background-color: lightblue;
+}
+.grid-item {
+    width: 300px;
+    height: 200px;
+    background: rgb(50, 179, 108);
+}
+  
+ 
+</style>
+
+<body >
+             <!-- flex box -->
+
+    <div class="container">
+        <div class="box1">
+            
+        </div>
+        <div class="box2">
+            
+        </div>
+        <div class="box3">
+            
+        </div>
+        <div class="box4">
+            
+        </div>
+
+    </div>
+
+      <!-- Grid box -->
+
+      <div class="container2">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+     
+      </div>
+
+
+</body>
+
+</html>
